@@ -1,4 +1,4 @@
-# UI Boilerplate
+# Webpack React Less Mocha CSS Modules
 
 The main packages used are React as view library, Director as router Webpack as module bundler and mocha as testing tool.
 
