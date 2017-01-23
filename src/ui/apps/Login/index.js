@@ -26,7 +26,7 @@ export default class Login extends Component {
 
     fetch(urls.auth, {
       method: 'POST',
-      body: new formData
+      body: formData
     }).then((response) => {
       this.setState({ inProgress: false });
       return response.json();
